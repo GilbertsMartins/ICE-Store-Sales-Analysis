@@ -1,0 +1,6 @@
+# Pandas
+pandas>=3.0.0
+# SciPy
+scipy>=1.16.3
+# Plotly
+plotly>=6.00.0
