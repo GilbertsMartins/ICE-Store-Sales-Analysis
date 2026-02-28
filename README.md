@@ -65,7 +65,7 @@ O objetivo principal desta Análise Exploratória de Dados (EDA) é extrair *ins
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
-* Python 3.8 ou superior instalado.
+* Python 3.12 ou superior instalado.
 * Git instalado.
 
 ### Instalação passo a passo
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 ### Execução
 
-Para abrir o projeto e visualizar as análises interativas, inicie o Jupyter Notebook em sua IDE de preferência.
+Para abrir o projeto e visualizar as análises interativas, inicie o Jupyter Notebook em sua IDE de preferência localmente ou acesse este [link](https://htmlpreview.github.io/?https://github.com/GilbertsMartins/ICE-Store-Sales-Analysis/blob/main/notebooks/EDA.html) para uma visualização online.
 
 ---
 
