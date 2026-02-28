@@ -1,4 +1,4 @@
-# 🎮 ICE Store - Análise de Vendas de Videojogos
+# 🎮 ICE Store - Análise de Vendas de Jogos
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?style=for-the-badge&logo=pandas)
