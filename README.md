@@ -38,16 +38,17 @@ O objetivo principal desta Análise Exploratória de Dados (EDA) é extrair *ins
 
 ## ⚙️ Etapas do Projeto
 
-1.  **Importação e Preparação dos Dados:** * Padronização dos nomes das colunas para *snake_case*.
+1.  **Importação e Preparação dos Dados:**
+    * Padronização dos nomes das colunas para *snake_case*.
     * Tratamento de valores nulos (ex: conversão de "tbd" para `NaN` na coluna `user_score`).
     * Criação da variável agregada `global_sales`.
-2.  **Análise Exploratória de Dados (EDA):**
+3.  **Análise Exploratória de Dados (EDA):**
     * Análise do ciclo de vida das plataformas (mediana de 6 anos de duração).
     * Focagem no período recente (2013-2016) para identificar plataformas promissoras.
     * Análise de variabilidade (Variância e Desvio Padrão) para entender a consistência de vendas.
-3.  **Criação de Perfis de Utilizador por Região:**
+4.  **Criação de Perfis de Utilizador por Região:**
     * Mapeamento das preferências (Plataformas, Géneros e Classificação Etária) para a América do Norte (NA), Europa (EU) e Japão (JP).
-4.  **Teste de Hipóteses Estatísticas:**
+5.  **Teste de Hipóteses Estatísticas:**
     * *Teste 1:* Diferença nas avaliações dos utilizadores entre Xbox One e PC.
     * *Teste 2:* Diferença nas avaliações dos utilizadores entre os géneros *Action* e *Sports*.
 
