@@ -14,6 +14,18 @@ A ICE Store é uma loja fictícia que vende jogos a nível mundial. Para planear
 **Objetivo do projeto:**  
 O objetivo principal desta Análise Exploratória de Dados (EDA) é extrair *insights* valiosos do histórico de vendas de jogos, avaliações de críticos e utilizadores, e dados regionais. O projeto visa detetar padrões de sucesso, calcular o ciclo de vida das plataformas e prever tendências para otimizar as estratégias de marketing de 2017.
 
+## 📈 Principais Insights e Resultados
+
+A análise dos dados históricos de vendas de jogos revelou padrões cruciais para o planejamento de campanhas e gestão de estoque da loja Ice para o ano de 2017:
+
+* **Ciclo de Vida e Plataformas Promissoras:** O ciclo de vida médio de uma plataforma no mercado é de aproximadamente 10 anos. Para 2017, as plataformas com maior potencial de rentabilidade e que devem ser o foco das campanhas são o **PlayStation 4 (PS4)**, o **Xbox One (XOne)** e o **Nintendo 3DS**.
+* **O Impacto das Avaliações nas Vendas:** As análises de correlação mostraram que **as notas dadas pelos críticos profissionais têm um impacto positivo (moderado) nas vendas** dos jogos. Curiosamente, as avaliações dos usuários comuns não apresentam correlação significativa com o sucesso comercial de um título.
+* **Os Gêneros Mais Lucrativos:** Globalmente, os gêneros **Ação (Action)** e **Tiro (Shooter)** dominam o mercado, apresentando as maiores vendas médias e totais. Gêneros como *Adventure* e *Puzzle* têm o menor retorno financeiro.
+* **Perfis Regionais Distintos:**
+  * **América do Norte (NA) e Europa (EU):** Têm comportamentos quase idênticos. Preferem consoles de mesa (PS4 e XOne), jogos de Ação/Tiro e títulos com classificação indicativa **'M' (Mature / +17 anos)**.
+  * **Japão (JP):** O mercado japonês é focado em portabilidade e nicho. O **Nintendo 3DS** é a plataforma dominante, o gênero **Role-Playing (RPG)** é o líder isolado de vendas, e não há forte presença de jogos classificados como 'M'.
+* **Testes de Hipótese:** Estatisticamente, confirmou-se que as avaliações dos usuários para Xbox One e PC são semelhantes. Por outro lado, as notas dadas pelos usuários para os gêneros *Action* e *Sports* são estatisticamente diferentes.
+
 ## 📊 Dataset
 
 * **Fonte dos dados:** Ficheiro local `games.csv` (dados fornecidos para a análise).
