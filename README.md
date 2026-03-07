@@ -83,32 +83,24 @@ A análise dos dados históricos de vendas de jogos revelou padrões cruciais pa
 
 ### Instalação passo a passo
 
-**1. Clonar o repositório**
-Abre o teu terminal e clone este repositório para a tua máquina:
+**1. Abra o teu terminal e clone o repositório para a tua máquina: (ex: Anaconda Prompt)**
 ```bash
 git clone https://github.com/gilbertsmartins/ICE-Store-Sales-Analysis.git
 cd ICE-Store-Sales-Analysis
 ```
-
-**2. Criar e ativar um ambiente virtual (Recomendado)**
-Isso garante que as dependências do projeto não entrem em conflito com outras instalações no teu sistema.
-* No **Windows**:
-  ```bash
-  python -m venv venv
-  venv\Scripts\activate
-  ```
-* No **Linux / macOS**:
-  ```bash
-  python3 -m venv venv
-  source venv/bin/activate
-  ```
-
-**3. Instalar as Bibliotecas**
-Com o ambiente virtual ativado, instale as bibliotecas necessárias através do `pip`:
+**2. Crie um ambiente virtual (recomendado):**
+```bash
+conda create -n ice_env python=3.12
+```
+**3. Ative o ambiente virtual:**
+```bash
+conda activate ice_env
+```
+**4. Instale as dependências listadas no arquivo `requirements.txt`:**
 ```bash
 pip install -r requirements.txt
 ```
-**4. Abra o arquivo `.ipynb` na sua IDE de preferência (como o VS Code) ou inicie o Jupyter Notebook:**
+**5. Abra o arquivo `.ipynb` na sua IDE de preferência (como o VS Code) ou inicie o Jupyter Notebook:**
 ```bash
 jupyter notebook
 ```
