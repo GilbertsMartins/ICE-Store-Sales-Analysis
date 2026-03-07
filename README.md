@@ -86,7 +86,7 @@ A análise dos dados históricos de vendas de jogos revelou padrões cruciais pa
 **1. Clonar o repositório**
 Abre o teu terminal e clone este repositório para a tua máquina:
 ```bash
-git clone [https://github.com/gilbertsmartins/ICE-Store-Sales-Analysis.git](https://github.com/gilbertsmartins/ICE-Store-Sales-Analysis.git)
+git clone https://github.com/gilbertsmartins/ICE-Store-Sales-Analysis.git
 cd ICE-Store-Sales-Analysis
 ```
 
@@ -126,7 +126,8 @@ Para abrir o projeto e visualizar as análises interativas, inicie o Jupyter Not
  ┃ ┗ 📜 games.csv              # Dataset original (adiciona localmente, ignorado no git)
  ┣ 📂 notebook
  ┃ ┗ 📜 EDA.ipynb              # Notebook principal com a análise interativa
- ┗ 📜 README.md                # Documentação do projeto
+ ┃ 📜 README.md                # Documentação do projeto
+ ┗ 📜 requirements.txt         # Versões das bibliotecas 
 ```
 
 ## 🔮 Possíveis Melhorias Futuras
