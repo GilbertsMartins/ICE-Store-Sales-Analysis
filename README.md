@@ -108,9 +108,12 @@ Com o ambiente virtual ativado, instale as bibliotecas necessárias através do 
 ```bash
 pip install -r requirements.txt
 ```
+**4. Abra o arquivo `.ipynb` na sua IDE de preferência (como o VS Code) ou inicie o Jupyter Notebook:**
+```bash
+jupyter notebook
+```
 
-### Execução
-
+### Execução OnLine
 Para abrir o projeto e visualizar as análises interativas, inicie o Jupyter Notebook em sua IDE de preferência localmente ou acesse este [link](https://htmlpreview.github.io/?https://github.com/GilbertsMartins/ICE-Store-Sales-Analysis/blob/main/notebooks/EDA.html) para uma visualização online.
 
 ---
@@ -121,7 +124,7 @@ Para abrir o projeto e visualizar as análises interativas, inicie o Jupyter Not
 📦 ice-store-sales-analysis
  ┣ 📂 data
  ┃ ┗ 📜 games.csv              # Dataset original (adiciona localmente, ignorado no git)
- ┣ 📂 notebooks
+ ┣ 📂 notebook
  ┃ ┗ 📜 EDA.ipynb              # Notebook principal com a análise interativa
  ┗ 📜 README.md                # Documentação do projeto
 ```
@@ -134,10 +137,4 @@ Para abrir o projeto e visualizar as análises interativas, inicie o Jupyter Not
 
 ## 👨‍💻 Autor
 
-**Gilbert Martins**
-* Analista de Dados
-
-* <a>
-  <img align="left" alt="Gilbert's LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/> 
-  
-  [LinkedIn](https://linkedin.com/in/gilbert-martins) </a>
+* **Gilbert Martins** - Analista de Dados - [LinkedIn](https://linkedin.com/in/gilbert-martins)
